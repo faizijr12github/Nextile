@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+  overflow-x: hidden;
+}
+
+.text-orange {
+  color: #ff6f00;
+}
+
+.bg-orange-grad {
+  background: #CA531C;
+  background: linear-gradient(135deg, #CA531C, #FC9C3A);
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+.separator {
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #fd8d0d, #fded10);
+  border-radius: 2px;
+}
+
+.slide-link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  line-height: 2;
+  display: inline-block;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.slide-link:hover {
+  transform: translateX(10px);
+  color: #ff6f00;
+}
+
+
+/* Navbar Styling */
+.nav-link {
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: #ff6f00
+}
+
+.mynavbar {
+  background-color: white !important;
+}
+
+.nav-drop-link:hover {
+  color: #ff6f00;
+}
+
+/* Hero-section - Home page */
+.hero-btn1 {
+  background-color: #ff6f00;
+  color: white;
+  transition: color 0.4s ease, border-color 0.3s ease;
+}
+
+.hero-btn1:hover {
+  background-color: black;
+  color: #ff6f00;
+  transition: background-color 0.4s ease, color 0.3s ease;
+}
+
+
+/* Services of Home page */
+.why-origo-bg {
+  background-color: #000000;
+  border-bottom: 3px solid #ff6f00;
+}
+
+/* Supplier Steps Home Page */
+.vision {
+  background: #f8ab70;
+  border-radius: 32px;
+}
+
+/* Register page */
+.contact-bg {
+  background-image: url('/images/form-bg.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* Registration forms styling */
+.form-label {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-control {
+  background-color: transparent !important;
+  border-radius: 0px !important;
+  border: 0px !important;
+  border-bottom: 1px solid white !important;
+  color: white !important;
+  /* Set text color to white */
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  /* Remove blue shadow on focus */
+  border-bottom: 1px solid white !important;
+  /* Retain the white bottom border */
+}
+
+.conatct-form-btn {
+  border: 0px !important;
+  background-color: #ff6f00 !important;
+  color: white !important;
+  transition: color 0.4s ease, border-color 0.3s ease;
+  padding: 10px 26px !important;
+  border-radius: 8px !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+
+.conatct-form-btn:hover {
+  background-color: black !important;
+  color: #ff6f00 !important;
+  transition: background-color 0.4s ease, color 0.3s ease;
+}
+
+.form-control::placeholder {
+  color: white !important;
+  opacity: 1;
+  /* Ensures the placeholder is visible */
+}

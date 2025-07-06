@@ -1,0 +1,29 @@
+{
+  "name": "textile-app-firebase",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "bootstrap": "^5.3.5",
+    "bootstrap-icons": "^1.11.3",
+    "chart.js": "^4.5.0",
+    "cloudinary": "^2.6.0",
+    "formidable": "^3.5.4",
+    "mongoose": "^8.13.2",
+    "next": "15.3.1",
+    "next-auth": "^4.24.11",
+    "nodemailer": "^6.10.1",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^19.0.0",
+    "swiper": "^11.2.6"
+  }
+}
