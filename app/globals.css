@@ -1,9 +1,8 @@
 /* General Styles */
-body {
-  overflow-x: hidden !important;
+html, body {
+  overflow-x: hidden;
   width: 100%;
 }
-
 .text-orange {
   color: #ff6f00;
 }
