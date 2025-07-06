@@ -55,8 +55,8 @@ export default function Insights() {
               <div data-aos="fade-left">
                 <img
                   className='img-fluid'
-                  src="/images/prediction-img.png"
-                  alt="White Fabric"
+                  src="/images/Prediction-img.png"
+                  alt="Prediction-img"
                   layout="responsive"
                   loading="lazy"
                 />
@@ -90,7 +90,7 @@ export default function Insights() {
                 <img
                   className='img-fluid'
                   src="/images/eda-img.png"
-                  alt="White Fabric"
+                  alt="EDA-image"
                   layout="responsive"
                   loading="lazy"
                 />
