@@ -1,6 +1,7 @@
 /* General Styles */
 body {
   overflow-x: hidden !important;
+  width: 100%;
 }
 
 .text-orange {
