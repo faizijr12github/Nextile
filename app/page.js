@@ -5,6 +5,7 @@ import IndustrySlider from './components/IndustrySlider'
 import SupplierSteps from './components/SupplierSteps'
 import FAQAccordion from './components/FAQAccordion'
 import BusinessPartner from './components/BusinessPartner'
+import Testimonials from './components/Testimonials'
 
 const page = () => {
   return (
@@ -13,8 +14,9 @@ const page = () => {
       <Services/>
       <IndustrySlider/>
       <SupplierSteps/>
-      <FAQAccordion/>
       <BusinessPartner/>
+      <Testimonials/>
+      <FAQAccordion/>
     </div>
   )
 }
