@@ -60,7 +60,6 @@ next.config.mjs # Next.js config
 * Node.js (v18+)
 * MongoDB Atlas database
 * Google Gemini API Key
-* Tavily API Key
 * Gmail App Password (for Nodemailer)
 
 ### Steps
