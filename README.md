@@ -142,7 +142,7 @@ next.config.mjs # Next.js config
 
 ---
 
-> Made with ❤️ by Mohammad Faizal Faizi
+> Made with ❤️ by Muhammad Faizan
 
 ---
 
