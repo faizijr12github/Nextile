@@ -15,7 +15,7 @@ export async function GET(req) {
   myHeaders.append("Content-Type", "application/json")
   myHeaders.append(
     "Authorization",
-    "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmYWl6YW4iLCJleHAiOjE3NTIzNTM1OTN9.CRrw7Gr2aCsFNY4g9Q6RTv4x6V6ZnDM0iJense05gxg",
+    "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmYWl6YW4iLCJpYXQiOjE3NTI1NTYyMDUsImV4cCI6MTc1Nzk3NzIwMH0.fpTADkmw-qcW9kggPpS8kTVqBU8lZvCZ2Im-PGC-pTk",
   )
 
   const requestOptions = {
